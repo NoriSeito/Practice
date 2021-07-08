@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+@font-face { 
+    font-family: "GolosTextMedium";
+    src: url("../fonts/GolosTextMedium/GolosTextMedium.eot");
+    src: url("../fonts/GolosTextMedium/GolosTextMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GolosTextMedium/GolosTextMedium.woff") format("woff"),
+    url("../fonts/GolosTextMedium/GolosTextMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "GolosTextDemiBold";
+    src: url("../fonts/GolosTextDemiBold/GolosTextDemiBold.eot");
+    src: url("../fonts/GolosTextDemiBold/GolosTextDemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GolosTextDemiBold/GolosTextDemiBold.woff") format("woff"),
+    url("../fonts/GolosTextDemiBold/GolosTextDemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}

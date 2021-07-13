@@ -261,7 +261,7 @@ ol {
     margin-left: 12px;
 }
 
-.info-about__link > span {
+.info-about__link > .sitename {
     transition: all .3s;
     font-weight: 600;
     color: black;
@@ -270,7 +270,15 @@ ol {
     margin-left: 25px;
 }
 
-.info-about__link > span:hover {
+.sitename{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #21213E;
+}
+
+.info-about__link > .sitename:hover {
     color: #41658d;
 }
 

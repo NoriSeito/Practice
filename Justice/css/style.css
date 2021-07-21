@@ -503,7 +503,7 @@ li, ol {
 }
 
 .round-button:checked, .round-button:hover {
-  transition: 0.5 s;
+  transition: 0.5s;
   background-image: url("../pics/blueb.png");
 }
 
@@ -631,7 +631,7 @@ li, ol {
   color: #A7A7AB;
 }
 
-.news-footer{
+.news-footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 8em;
@@ -695,7 +695,7 @@ li, ol {
 
 }
 
-.news-notes__link:hover{
+.news-notes__link:hover {
   color: #0061D9;
   text-decoration: solid underline #0061D9 1px;
 }
@@ -704,7 +704,7 @@ li, ol {
   padding-left: 30px;
 }
 
-.news-notes__sup-title > img{
+.news-notes__sup-title > img {
   padding-left: 20px;
 }
 
@@ -770,11 +770,11 @@ li, ol {
   width: 100%;
 }
 
-.events-notes__link{
+.events-notes__link {
   color: #333333;
 }
 
-.events-notes__link:hover{
+.events-notes__link:hover {
   color: #0061D9;
   text-decoration: solid underline #0061D9 1px;
 }
@@ -866,7 +866,7 @@ li, ol {
   color: #A7A7AB;
 }
 
-.posts-inner__container h3, h2{
+.posts-inner__container h3, h2 {
   padding: 0;
   margin: 0;
 }
@@ -878,7 +878,7 @@ li, ol {
   color: #333333;
 }
 
-.posts-inner__content:hover{
+.posts-inner__content:hover {
   color: #0061D9;
   text-decoration: solid underline #0061D9 1px;
 }
@@ -1001,7 +1001,7 @@ li, ol {
   transition: 0.3s;
 }
 
-.materials__buttns{
+.materials__buttns {
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -1024,7 +1024,7 @@ li, ol {
   background-color: inherit;
 }
 
-.materials__button-view:hover{
+.materials__button-view:hover {
   text-decoration: solid underline white 1px;
 }
 
@@ -1099,7 +1099,7 @@ li, ol {
   z-index: 1;
 }
 
-.video__title:hover{
+.video__title:hover {
   text-decoration: solid underline white 1px;
 }
 
@@ -1166,11 +1166,11 @@ li, ol {
   padding-left: 32px;
 }
 
-.projects__box:hover{
+.projects__box:hover {
   background-color: #f0f3fc;
 }
 
-.projects__box-text{
+.projects__box-text {
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
@@ -1203,7 +1203,7 @@ li, ol {
   margin-left: 12px;
 }
 
-.projects__button:hover{
+.projects__button:hover {
   text-decoration: solid underline #5fa0ec 1px;
 
 }
@@ -1213,23 +1213,46 @@ li, ol {
   margin-top: 60px;
 }
 
+.updates h2 {
+  padding-bottom: 20px;
+}
+
+.updates__inner-posts hr {
+  border: none;
+  border-top: 1px solid #D9D9DE;
+  width: 100%;
+  height: 1px;
+}
+
 .updates__inner-posts {
   display: grid;
-  grid-template-rows: 1fr 1fr 1.7fr;
+  gap: 10px;
 }
 
 .updates__posts {
-  padding-top: 20px;
+  display: grid;
+  gap: 6px;
 }
 
-.posts__title {
-  margin-bottom: 10px;
+.updates__posts h3 {
+  margin: 0;
+  padding: 0;
 }
 
 .updates__main-text {
-  display: flex;
   align-items: center;
   padding-bottom: 20px;
+
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+
+  color: #333333;
+}
+
+.updates__main-text:hover {
+  text-decoration: solid underline #5fa0ec 1px;
+  color: #0061D9;
 }
 
 .updates__button {

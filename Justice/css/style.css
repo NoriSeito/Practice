@@ -916,13 +916,8 @@ li, ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 30px;
-  height: 558px;
+  height: 34.875em;
   padding-top: 60px;
-}
-
-.photo {
-  width: 550px;
-  height: 350px;
 }
 
 .materials__photo > h2 {
@@ -936,8 +931,8 @@ li, ol {
   align-items: flex-end;
   justify-content: space-between;
 
-  width: 561px;
-  height: 382px;
+  width: 35.063em;
+  height: 23.875em;
 }
 
 .materials__button {
@@ -958,7 +953,7 @@ li, ol {
   line-height: 20px;
   color: #A7A7AB;
   position: relative;
-  z-index: 1000;
+  z-index: 10;
 
   padding-left: 32px;
 }
@@ -970,8 +965,8 @@ li, ol {
 
 .materials__pic {
   position: relative;
-  width: 555px;
-  height: 355px;
+  width: 34.688em;
+  height: 22.188em;
   margin-top: 20px;
 
   background: linear-gradient(360deg, #061844 -4.95%, rgba(6, 24, 68, 0) 45.78%), url("../pics/materials/leftpic.png") no-repeat;
@@ -1038,12 +1033,6 @@ li, ol {
 }
 
 /*VIDEO*/
-
-.video {
-  width: 550px;
-  height: 350px;
-}
-
 .video__content {
   position: absolute;
 
@@ -1056,8 +1045,8 @@ li, ol {
   padding-left: 32px;
   padding-bottom: 32px;
 
-  width: 561px;
-  height: 382px;
+  width: 35.063rem;
+  height: 23.875rem;
 }
 
 .video__play-button {
@@ -1066,8 +1055,8 @@ li, ol {
   justify-content: center;
   align-items: center;
 
-  width: 555px;
-  max-height: 290px;
+  width: 34.688em;
+  max-height: 18.125em;
   height: 100%;
 
 }
@@ -1177,6 +1166,19 @@ li, ol {
   padding-left: 32px;
 }
 
+.projects__box:hover{
+  background-color: #f0f3fc;
+}
+
+.projects__box-text{
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  padding: 0 29px 0 32px;
+
+  color: #333333;
+}
+
 .projects__btn {
   display: flex;
   justify-content: space-between;
@@ -1199,6 +1201,11 @@ li, ol {
 
 .projects__button > img {
   margin-left: 12px;
+}
+
+.projects__button:hover{
+  text-decoration: solid underline #5fa0ec 1px;
+
 }
 
 /*UPDATES*/

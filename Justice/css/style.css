@@ -855,7 +855,7 @@ li, ol {
 
 .posts-inner__container {
   display: grid;
-  grid-template-rows: 1fr 2.5fr;
+  gap: 6px;
   width: 914px;
 }
 
@@ -866,11 +866,21 @@ li, ol {
   color: #A7A7AB;
 }
 
+.posts-inner__container h3{
+  padding: 0;
+  margin: 0;
+}
+
 .posts-inner__content {
   font-size: 18px;
   line-height: 27px;
-
+  margin: 0;
   color: #333333;
+}
+
+.posts-inner__content:hover{
+  color: #0061D9;
+  text-decoration: solid underline #0061D9 1px;
 }
 
 .mass-media__button-empty {

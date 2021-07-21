@@ -15,12 +15,6 @@ header, main, footer, div, nav {
   display: block;
 }
 
-/*main, footer{*/
-/*  max-width: 1120px;*/
-/*  width: 100%;*/
-/*  margin: 0 auto;*/
-/*}*/
-
 a {
   text-decoration: none;
 
@@ -37,7 +31,8 @@ h2 {
 li, ol {
   font-size: 14px;
   line-height: 18px;
-
+  padding: 0;
+  margin: 0;
   display: list-item;
 
   color: #FFFFFF;
@@ -1464,11 +1459,16 @@ li, ol {
 .main-content__footer {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 90px;
+  grid-column-gap: 79px;
 }
 
 .content-box {
   width: 100%;
+}
+
+.content-box li{
+  padding-bottom: 12px;
+
 }
 
 .content-box__title {

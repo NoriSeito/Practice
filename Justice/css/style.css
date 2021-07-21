@@ -1363,19 +1363,23 @@ li, ol {
 }
 
 .activities__items-inner {
-  display: flex;
-  justify-content: flex-start;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: max-content 1fr;
   align-items: center;
-  width: 352px;
+  width: 22em;
+  color: black;
+}
+
+.activities__items-inner:hover{
+  text-decoration: solid underline #5fa0ec 1px;
+  color: #0061D9;
 }
 
 .activities__items-inner > span {
-  width: 271px;
-  margin-right: 20px;
-  margin-bottom: 32px;
   font-size: 18px;
   line-height: 27px;
-
+  padding-bottom: 20px;
 }
 
 .round-border {
@@ -1386,8 +1390,7 @@ li, ol {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  margin-right: 20px;
-  margin-bottom: 32px;
+  margin-bottom: 22px;
 }
 
 .activities__footer {

@@ -770,7 +770,7 @@ li, ol {
   content: '';
   position: absolute;
   bottom: 0;
-  width: 22em;
+  width: 21em;
   height: 50px;
   background: linear-gradient(360deg, #FFFFFF 10.97%, rgba(255, 255, 255, 0) 75.11%);
 }
